@@ -1,7 +1,6 @@
-const UniryOrdenar = require('./UniryOrdenar.js');
+const UniryOrdenar = require('./UnirOrdenar.js');
 
-let array1 = [2, 8, 9, 10];
-let array2 = [1, 3, 4, 7];
-
-let array3 = UniryOrdenar(array1, array2);
-console.log(array3);
+let A = [1, 3, 5, 7, 10, 150, 20];
+let B = [2, 4, 6, 8, 87, 103, 23];
+let resultado = UniryOrdenar(A, B);
+console.log(resultado);
